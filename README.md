@@ -1,14 +1,6 @@
-# jQuery Form Validator [DISCONTINUED]
+# jQuery Form Validator
 
 *Validation framework that let's you configure, rather than code, your validation logic.*
-
-I started writing this plugin back in 2009 and it has given me much joy over the years. But all good things must come to an end and now it's time for this plugin to pull in its oars and go down with history.
-
-**This plugin is no longer being developed!** It supports jQuery v. 1.8 >= 2.2.4. No pull requests will become merged in but feel free to fork and do whatever you like!
-
-[![Travis](https://travis-ci.org/victorjonsson/jQuery-Form-Validator.svg)](https://travis-ci.org/victorjonsson/jQuery-Form-Validator/builds/)
-
-[![npm version](https://badge.fury.io/js/jquery-form-validator.svg)](https://www.npmjs.com/package/jquery-form-validator)
 
 *Usage example*
 
@@ -326,7 +318,7 @@ This plugin also supports the attributes "required" and "maxlength" by using the
 <input type="text" data-validation="number" data-validation-allowing="float,negative">
 
 <!-- Validate float number with comma separated decimals -->
-<input type="text" data-validation="number" data-validation-allowing="float" 
+<input type="text" data-validation="number" data-validation-allowing="float"
 		 data-validation-decimal-separator=",">
 
 <!-- Only allowing numbers from 1 to 100 -->
@@ -698,7 +690,7 @@ $_SESSION['captcha'] = array( mt_rand(0,9), mt_rand(1, 9) );
 
 Use this validator if wanting to integrate the Google service reCAPTCHA.
 
-``` 
+```
 <p>
     <input  data-validation="recaptcha" data-validation-recaptcha-sitekey="[RECAPTCHA_SITEKEY]">
 </p>
